@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Spațiul creativ Ludico</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="img/ludico/ludico_2.jpg" rel="icon">
+    <link href="img/ludico/ludico_32.jpg" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+<body>
+  <div class="click-closed"></div>
+
+  <!--/ Form Search Star /-->
+  <!-- <div class="box-collapse">
+    <div class="title-box-d">
+      <h3 class="title-d">Search Property</h3>
+    </div>
+    <span class="close-box-collapse right-boxed ion-ios-close"></span>
+    <div class="box-collapse-wrap form">
+      <form class="form-a">
+        <div class="row">
+          <div class="col-md-12 mb-2">
+            <div class="form-group">
+              <label for="Type">Keyword</label>
+              <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="Type">Type</label>
+              <select class="form-control form-control-lg form-control-a" id="Type">
+                <option>All Type</option>
+                <option>For Rent</option>
+                <option>For Sale</option>
+                <option>Open House</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="city">City</label>
+              <select class="form-control form-control-lg form-control-a" id="city">
+                <option>All City</option>
+                <option>Alabama</option>
+                <option>Arizona</option>
+                <option>California</option>
+                <option>Colorado</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="bedrooms">Bedrooms</label>
+              <select class="form-control form-control-lg form-control-a" id="bedrooms">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="garages">Garages</label>
+              <select class="form-control form-control-lg form-control-a" id="garages">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="bathrooms">Bathrooms</label>
+              <select class="form-control form-control-lg form-control-a" id="bathrooms">
+                <option>Any</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 mb-2">
+            <div class="form-group">
+              <label for="price">Min Price</label>
+              <select class="form-control form-control-lg form-control-a" id="price">
+                <option>Unlimite</option>
+                <option>$50,000</option>
+                <option>$100,000</option>
+                <option>$150,000</option>
+                <option>$200,000</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-b">Search Property</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div> -->
+  <!--/ Form Search End /-->
+
+  <!--/ Nav Star /-->
+    <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+      <div class="container">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="index.html">Spațiul creativ <span class="color-b">LUDICO</span></a>
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+      data-target="#navbarTogglerDemo01" aria-expanded="false">
+      <span class="fa fa-search" aria-hidden="true"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Acasă</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">Despre noi</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Cursuri
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="curs-dezv-per.html">Curs de dezvoltare personală prin teatru</a>
+          <a class="dropdown-item" href="curs-dictie.html">Curs practic de dicție</a>
+          <a class="dropdown-item" href="curs-improvizatie.html">Curs de improvizație</a>
+          <a class="dropdown-item" href="curs-avansati.html">Curs de teatru - Avansați</a>
+        </div>
+      </li>          
+
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="blog-grid.html">Traineri</a>
+      </li> -->
+
+      <li class="nav-item">
+        <a class="nav-link" href="evenimente.html">Evenimente</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+ <!--  <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
+  data-target="#navbarTogglerDemo01" aria-expanded="false">
+  <span class="fa fa-search" aria-hidden="true"></span>
+</button> -->
+</div>
+</nav>
+<!--/ Nav End /-->
+
+  <!--/ Intro Single star /-->
+  <section class="intro-single">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-8">
+          <div class="title-single-box">
+            <h1 class="title-single">Curs de dezvoltare personală prin teatru</h1>
+            <span class="color-text-a">by Mihaela Ceaicovschi</span>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="index.html">Acasă</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="index.html#sectiune-cursuri">Cursuri</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Curs</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Intro Single End /-->
+
+  <!--/ Property Single Star /-->
+  <section class="property-single nav-arrow-b">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="property-single-carousel" class="owl-carousel owl-arrow gallery-property">
+            <div class="carousel-item-b">
+              <img src="img/ludico/teatru_dezvoltare.jpg" alt="Curs de dezvoltare personală prin teatru">
+            </div>           
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-md-5 col-lg-4">
+              <div class="property-price d-flex justify-content-center foo">
+                <div class="card-header-c d-flex">
+                  <p class="intro-subtitle intro-price">
+                      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfd56_kGP-KGasNk9xypTUXzTbv-0eZNGa4Docth1ngMLvMSA/viewform?usp=pp_url" target="_blank"><span class="text-black">Înscrie-te acum</span></a>
+                    </p>
+                </div>
+              </div>
+              <div class="property-summary">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <div class="title-box-d section-t4">
+                      <h3 class="title-d">Detalii</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="summary-list">
+                  <ul class="list">
+                    <li class="d-flex justify-content-between">
+                      <strong>Începutul cursului:</strong>
+                      <span>14 octombrie</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <strong>Ziua:</strong>
+                      <span>în fiecare Luni</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <strong>Ora:</strong>
+                      <span>18:30 - 21:00</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <strong>Durata:</strong>
+                      <span>4 luni</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <strong>Ultimul curs:</strong>
+                      <span>17 Februarie</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <strong>Preț:</strong>
+                      <span>250 de lei/lunar/4 cursuri</span>
+                    </li>
+                    <li class="d-flex justify-content-between">
+                      <strong>Locuri:</strong>
+                      <span>12</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-7 section-md-t3">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="title-box-d">
+                    <h3 class="title-d">Descriere curs</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="property-description">
+                <p class="description color-text-a">
+                  Spațiul creativ “Ludico” te invită cu drag la unul dintre cursurile pe care le găzduiește - cursul de dezvoltare personala prin teatru, improvizație și joc.
+                </p>
+                <p class="description color-text-a">
+                  Nu ai mai fost niciodată la un curs de teatru? Acesta este pentru tine!
+                </p>
+                <p class="description color-text-a">
+                  Dacă te-ai săturat de rutină, ți-e frică să vorbești în public, stai prea mult la birou, pe telefon, vrei să-ți faci noi prieteni și să descoperi noi versiuni ale personalității tale, să îți dezvolți imaginația, capabilitatea de comunicare și de a fi spontan, trebuie să dai o șansă acestui curs, care se adresează fiecărei persoane indiferent de vârsta sau ocupația pe care o are. 
+                </p>
+                <p class="description color-text-a">
+                  Cursul se încheie cu un spectacol mișto bazat pe monoloage, cu public, într-o cafenea din Cluj.
+                </p>
+                <p class="description color-text-a">
+                  La sfârșit, fiecare cursant va primi un certificat de absolvire în care vor fi precizate competențele dobândite în cadrul cursului.
+                </p>
+                <p class="description color-text-a">
+                  Primul curs este gratuit. Iar plata se poate face atât numerar cât și prin virament bancar în primul curs din fiecare lună. Pentru plata integrală pentru cele 4 luni se va aplica o reducere de 20% din suma totală.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-10 offset-md-1">
+          <ul class="nav nav-pills-a nav-pills mb-3 section-t3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-video-tab" data-toggle="pill" href="#pills-video" role="tab"
+                aria-controls="pills-video" aria-selected="true">În cadrul cursului vei:</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-video" role="tabpanel" aria-labelledby="pills-video-tab">
+              <div class="amenities-list color-text-a">
+                <ul class="no-margin">
+                  <li>învăța despre limbajul non-verbal, importanța gesturilor, semnificația lor</li>
+                  <li>dezvolta considerabil imaginația, creativitatea</li>
+                  <li>râde foarte mult și te vei elibera de stres</li>
+                  <li>putea comunica mai bine și vei dezvolta competențele necesare pentru o comunicare ușoară și corectă</li>
+                  <li>avea posibilitatea să lucrezi în echipă cu ceilalți cursanți care au aceleași interese comune ca tine</li>
+                  <li>învăța despre emoțiile tale, cum le poți controla uneori și cum le poți transmite mai bine</li>
+                  <li>vei învăța despre personaje și cum poți să intri în “pielea” lor</li>
+                  <li>+ multe alte chestii utile și interesante. </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="row section-t3">
+            <div class="col-sm-12">
+              <div class="title-box-d">
+                <h3 class="title-d">Îndrumător și formator calificat</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <img src="img/ludico/miha_insta.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="property-agent">
+                <h4 class="title-agent">Mihaela Ceaicovschi</h4>
+                <p class="color-text-a">
+                 
+                </p>
+                <ul class="list-unstyled">
+                  <li class="d-flex justify-content-between">
+                    <strong>Mobile:</strong>
+                    <span class="color-text-a">(+40) 743 805 323</span>
+                  </li>                 
+                  <li class="d-flex justify-content-between">
+                    <strong>Email:</strong>
+                    <span class="color-text-a">ceaicovschi.mihaela@gmail.com</span>
+                  </li>
+                </ul>
+                <div class="socials-a">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="https://www.facebook.com/mihaela.ceaicovschi">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://www.instagram.com/ceaikovsky/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li> 
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Property Single End /-->
+
+  <!--/ footer Star /-->
+  <section class="section-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="widget-a">
+            <div class="w-header-a">
+              <h3 class="w-title-a text-brand">Spațiul creativ "Ludico"</h3>
+            </div>
+            <div class="w-body-a">
+              <p class="w-text-a color-text-a">
+                Evadează în spaţiul Ludico şi dă-ţi voie să fii tu!
+              </p>
+            </div><br><br>
+            <div class="w-footer-a">
+              <ul class="list-unstyled">
+                <li class="color-a">
+                  <span class="color-text-a">Mobile: </span> (+40) 743 805 323; (+40) 742 611 063 </li>
+                  <li class="color-a">
+                    <span class="color-text-a">Email: </span> contact@ludico.ro </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 section-md-t3">
+              <div class="widget-a">                                                   
+                <div class="w-body-a">
+                  <div class="w-body-a">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.402634334694!2d23.592218115758552!3d46.77667005293004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490e9f93e24d63%3A0xe3e60020430643cc!2sStrada%20Ploie%C8%99ti%2017-19%2C%20Cluj-Napoca%20400157!5e0!3m2!1sen!2sro!4v1569964801865!5m2!1sen!2sro"
+                    width="100%" height="200" frameborder="0" style="border:0"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <nav class="nav-footer">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="index.html">Acasa</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="about.html">Despre noi</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="index.html#sectiune-cursuri">Cursuri</a>
+                  </li>                  
+                  <li class="list-inline-item">
+                    <a href="evenimente.html">Evenimente</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="socials-a">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="https://www.facebook.com/ludicogroup/">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                  </li>                                                    
+                  <li class="list-inline-item">
+                    <a href="https://www.instagram.com/ludico_spatiucreativ/">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                  </li>                                                     
+                </ul>
+              </div>
+              <div class="copyright-footer">
+                <p class="copyright color-text-a">
+                  &copy; Copyright
+                  <span class="color-a">ludico.ro</span> Toate drepturile rezervate.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/ Footer End /-->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/scrollreveal/scrollreveal.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
